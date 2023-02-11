@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lang">தமிழ்</string>
+    <string name="maize">சோளம்</string>
+    <string name="apple">ஆப்பிள்</string>
+    <string name="banana">வாழை</string>
+    <string name="blackgram">உளுந்து</string>
+    <string name="chickpea">கொண்டைக்கடலை</string>
+    <string name="coconut">தேங்காய்</string>
+    <string name="coffee">கொட்டைவடி நீர்</string>
+    <string name="cotton">பருத்தி</string>
+    <string name="grapes">திராட்சை</string>
+    <string name="jute">சணல்</string>
+    <string name="kidneybeans">தமிழ் விக்சனரி</string>
+    <string name="lentils">பருப்பு</string>
+    <string name="mango">மாங்கனி</string>
+    <string name="moth">அந்துப்பூச்சி பீன்ஸ்</string>
+    <string name="mung">முங் பீன்ஸ்</string>
+    <string name="musk">முலாம்பழம்</string>
+    <string name="orange">ஆரஞ்சு</string>
+    <string name="papaya">பப்பாளி</string>
+    <string name="pigeon">புறா பட்டாணி பருப்பு</string>
+    <string name="pomegrenate">மாதுளை பழம்</string>
+    <string name="rice">அரிசி</string>
+    <string name="watermelon">தர்பூசணி</string>
+    <string name="state">நிலை</string>
+    <string name="season">பருவம்</string>
+    <string name="distric">மாவட்டம்</string>
+</resources>

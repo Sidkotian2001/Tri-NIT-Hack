@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lang">മലയാളം</string>
+    <string name="maize">Maize</string>
+    <string name="apple">Apple</string>
+    <string name="banana">Banana</string>
+    <string name="blackgram">Black Gram</string>
+    <string name="chickpea">Chickpea</string>
+    <string name="coconut">Cocount</string>
+    <string name="coffee">Coffee</string>
+    <string name="cotton">Cotton</string>
+    <string name="grapes">Grapes</string>
+    <string name="jute">Jute</string>
+    <string name="kidneybeans">Kidney Beans</string>
+    <string name="lentils">Lentils</string>
+    <string name="mango">Mango</string>
+    <string name="moth">Moth Beans</string>
+    <string name="mung">Mung Beans</string>
+    <string name="musk">Muskmelon</string>
+    <string name="orange">Orange</string>
+    <string name="papaya">Papaya</string>
+    <string name="pigeon">Pigeon Peas</string>
+    <string name="pomegrenate">Pomegrenate</string>
+    <string name="rice">Rice</string>
+    <string name="watermelon">Watermelon</string>
+</resources>

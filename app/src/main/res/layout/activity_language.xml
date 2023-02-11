@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Language">
+
+    <Button
+        android:id="@+id/tamil"
+        android:layout_width="139dp"
+        android:layout_height="146dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="220dp"
+        android:backgroundTint="#FAFAFA"
+        android:foreground="@drawable/circle"
+        android:text="@string/lang"
+        android:textColor="#000000"
+        app:cornerRadius="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eng" />
+
+    <Button
+        android:id="@+id/eng"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="96dp"
+        android:backgroundTint="#FAFAFA"
+        android:foreground="@drawable/circle"
+        android:text="@string/lang"
+        android:textColor="#151414"
+        android:textColorHighlight="#020202"
+        android:textColorLink="#000000"
+        app:cornerRadius="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/kannada"
+        android:layout_width="151dp"
+        android:layout_height="147dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="32dp"
+        android:backgroundTint="#FAFAFA"
+        android:foreground="@drawable/circle"
+        android:text="@string/lang"
+        android:textColor="#000000"
+        app:cornerRadius="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hindi" />
+
+    <Button
+        android:id="@+id/hindi"
+        android:layout_width="127dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="80dp"
+        android:backgroundTint="#FAFAFA"
+        android:foreground="@drawable/circle"
+        android:text="@string/lang"
+        android:textColor="#000000"
+        app:cornerRadius="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/eng"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/en"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/lang"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="@+id/eng"
+        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintStart_toStartOf="@+id/eng"
+        app:layout_constraintTop_toBottomOf="@+id/eng" />
+
+    <TextView
+        android:id="@+id/hi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/lang"
+        android:textColor="#090909"
+        app:layout_constraintEnd_toEndOf="@+id/hindi"
+        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintStart_toStartOf="@+id/hindi"
+        app:layout_constraintTop_toBottomOf="@+id/hindi" />
+
+    <TextView
+        android:id="@+id/ta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/lang"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="@+id/tamil"
+        app:layout_constraintHorizontal_bias="0.414"
+        app:layout_constraintStart_toStartOf="@+id/tamil"
+        app:layout_constraintTop_toBottomOf="@+id/tamil" />
+
+    <TextView
+        android:id="@+id/kn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="@string/lang"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="@+id/kannada"
+        app:layout_constraintHorizontal_bias="0.405"
+        app:layout_constraintStart_toStartOf="@+id/kannada"
+        app:layout_constraintTop_toBottomOf="@+id/kannada" />
+</androidx.constraintlayout.widget.ConstraintLayout>
