@@ -29,7 +29,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/piyush/Tri-NIT-Hack/venv"
+set -gx VIRTUAL_ENV "/home/piyush/Downloads/trinit_hacks/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
