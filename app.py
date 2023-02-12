@@ -79,12 +79,12 @@ def predict():
     "December": 12
     }
 
-    nitrogen=int(request.form.get('nitrogen'))
-    phosphorus=int(request.form.get('phosphorus'))
-    potassium=int(request.form.get('potassium'))
-    loca=request.form.get('location')
-    ph=int(request.form.get('ph'))
-    mont=request.form.get('month')
+    nitrogen=int(request.form["nitrogen"])
+    phosphorus=int(request.form["phosphorus"])
+    potassium=int(request.form["potassium"])
+    loca=request.form["location"]
+    ph=int(request.form["ph"])
+    mont=request.form["month"]
 
     rainfall,temp = get_temp_rainfall(loca,months[mont])
     input_query = np.array([[nitrogen,phosphorus,potassium,temp,ph,rainfall]])
