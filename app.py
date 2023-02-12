@@ -61,7 +61,7 @@ def get_temp_rainfall(state,harvest_month):
     print(tavg,prcp)
     return tavg,prcp
 
-@app.route('/predict',method=['POST'])
+@app.route('/predict',methods=['POST'])
 def predict():
 
     months = {
