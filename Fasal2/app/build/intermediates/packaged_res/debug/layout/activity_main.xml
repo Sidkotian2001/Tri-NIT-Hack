@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DCF3CC"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="3dp"
+        android:fillViewport="true"
+        android:foregroundGravity="bottom|clip_horizontal|center_horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/contraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="1000dp"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/corn"
+                android:layout_width="329dp"
+                android:layout_height="252dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="2dp">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="202dp"
+                    android:layout_gravity="fill_horizontal"
+                    android:foreground="@drawable/maize" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_gravity="bottom|center"
+                    android:paddingBottom="10dp"
+                    android:text="@string/maize"
+                    android:textSize="20sp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/corn1"
+                android:layout_width="329dp"
+                android:layout_height="252dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="2dp">
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="202dp"
+                    android:layout_gravity="fill_horizontal"
+                    android:foreground="@drawable/apple" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_gravity="bottom|center"
+                    android:paddingBottom="10dp"
+                    android:text="@string/apple"
+                    android:textSize="20sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/corn2"
+                android:layout_width="329dp"
+                android:layout_height="252dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="2dp">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="202dp"
+                    android:layout_gravity="fill_horizontal"
+                    android:foreground="@drawable/banana" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_gravity="bottom|center"
+                    android:paddingBottom="10dp"
+                    android:text="@string/banana"
+                    android:textSize="20sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/corn3"
+                android:layout_width="329dp"
+                android:layout_height="252dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="2dp">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="202dp"
+                    android:foreground="@drawable/blackgram" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_gravity="bottom|center"
+                    android:paddingBottom="10dp"
+                    android:text="@string/blackgram"
+                    android:textSize="20sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/corn4"
+                android:layout_width="329dp"
+                android:layout_height="252dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="2dp">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="202dp"
+                    android:layout_gravity="fill_horizontal"
+                    android:foreground="@drawable/chickpea" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_gravity="bottom|center"
+                    android:paddingBottom="10dp"
+                    android:text="@string/chickpea"
+                    android:textSize="20sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/corn5"
+                android:layout_width="329dp"
+                android:layout_height="252dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="2dp">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="202dp"
+                    android:layout_gravity="fill_horizontal"
+                    android:foreground="@drawable/coconut" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_gravity="bottom|center"
+                    android:paddingBottom="10dp"
+                    android:text="@string/coconut"
+                    android:textSize="20sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/corn6"
+                android:layout_width="329dp"
+                android:layout_height="252dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="2dp">
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="202dp"
+                    android:layout_gravity="fill_horizontal"
+                    android:foreground="@drawable/coffee" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_gravity="bottom|center"
+                    android:paddingBottom="10dp"
+                    android:text="@string/coffee"
+                    android:textSize="20sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/corn7"
+                android:layout_width="329dp"
+                android:layout_height="252dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="2dp">
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="202dp"
+                    android:layout_gravity="fill_horizontal"
+                    android:foreground="@drawable/cotton" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_gravity="bottom|center"
+                    android:paddingBottom="10dp"
+                    android:text="@string/cotton"
+                    android:textSize="20sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/corn8"
+                android:layout_width="329dp"
+                android:layout_height="252dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="2dp">
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="202dp"
+                    android:layout_gravity="fill_horizontal"
+                    android:foreground="@drawable/grapes" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_gravity="bottom|center"
+                    android:paddingBottom="10dp"
+                    android:text="@string/grapes"
+                    android:textSize="20sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/corn9"
+                android:layout_width="329dp"
+                android:layout_height="252dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="2dp">
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="202dp"
+                    android:layout_gravity="fill_horizontal"
+                    android:foreground="@drawable/jute" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_gravity="bottom|center"
+                    android:paddingBottom="10dp"
+                    android:text="@string/jute"
+                    android:textSize="20sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/corn10"
+                android:layout_width="329dp"
+                android:layout_height="252dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="2dp">
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="202dp"
+                    android:layout_gravity="fill_horizontal"
+                    android:foreground="@drawable/kidneybeans" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_gravity="bottom|center"
+                    android:paddingBottom="10dp"
+                    android:text="@string/kidneybeans"
+                    android:textSize="20sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/corn11"
+                android:layout_width="329dp"
+                android:layout_height="252dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="2dp">
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="202dp"
+                    android:layout_gravity="fill_horizontal"
+                    android:foreground="@drawable/lentils" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_gravity="bottom|center"
+                    android:paddingBottom="10dp"
+                    android:text="@string/lentils"
+                    android:textSize="20sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/corn12"
+                android:layout_width="329dp"
+                android:layout_height="252dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="2dp">
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="202dp"
+                    android:layout_gravity="fill_horizontal"
+                    android:foreground="@drawable/mango" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_gravity="bottom|center"
+                    android:paddingBottom="10dp"
+                    android:text="@string/mango"
+                    android:textSize="20sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/corn13"
+                android:layout_width="329dp"
+                android:layout_height="252dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="2dp">
+
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="202dp"
+                    android:layout_gravity="fill_horizontal"
+                    android:foreground="@drawable/mothbeaans" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_gravity="bottom|center"
+                    android:paddingBottom="10dp"
+                    android:text="@string/moth"
+                    android:textSize="20sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/corn14"
+                android:layout_width="329dp"
+                android:layout_height="252dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="2dp">
+
+                <ImageView
+                    android:id="@+id/imageView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="202dp"
+                    android:layout_gravity="fill_horizontal"
+                    android:foreground="@drawable/mungbeans" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_gravity="bottom|center"
+                    android:paddingBottom="10dp"
+                    android:text="@string/mung"
+                    android:textSize="20sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/corn15"
+                android:layout_width="329dp"
+                android:layout_height="252dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="2dp">
+
+                <ImageView
+                    android:id="@+id/imageView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="202dp"
+                    android:layout_gravity="fill_horizontal"
+                    android:foreground="@drawable/muskmelon" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_gravity="bottom|center"
+                    android:paddingBottom="10dp"
+                    android:text="@string/musk"
+                    android:textSize="20sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/corn16"
+                android:layout_width="329dp"
+                android:layout_height="252dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="2dp">
+
+                <ImageView
+                    android:id="@+id/imageView16"
+                    android:layout_width="match_parent"
+                    android:layout_height="202dp"
+                    android:layout_gravity="fill_horizontal"
+                    android:foreground="@drawable/orange" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_gravity="bottom|center"
+                    android:paddingBottom="10dp"
+                    android:text="@string/orange"
+                    android:textSize="20sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/corn17"
+                android:layout_width="329dp"
+                android:layout_height="252dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="2dp">
+
+                <ImageView
+                    android:id="@+id/imageView17"
+                    android:layout_width="match_parent"
+                    android:layout_height="202dp"
+                    android:layout_gravity="fill_horizontal"
+                    android:foreground="@drawable/papaya" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_gravity="bottom|center"
+                    android:paddingBottom="10dp"
+                    android:text="@string/papaya"
+                    android:textSize="20sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/corn18"
+                android:layout_width="329dp"
+                android:layout_height="252dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="2dp">
+
+                <ImageView
+                    android:id="@+id/imageView18"
+                    android:layout_width="match_parent"
+                    android:layout_height="202dp"
+                    android:layout_gravity="fill_horizontal"
+                    android:foreground="@drawable/pigeonpeas" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_gravity="bottom|center"
+                    android:paddingBottom="10dp"
+                    android:text="@string/pigeon"
+                    android:textSize="20sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/corn19"
+                android:layout_width="329dp"
+                android:layout_height="252dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="2dp">
+
+                <ImageView
+                    android:id="@+id/imageView19"
+                    android:layout_width="match_parent"
+                    android:layout_height="202dp"
+                    android:layout_gravity="fill_horizontal"
+                    android:foreground="@drawable/pomegrenate" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_gravity="bottom|center"
+                    android:paddingBottom="10dp"
+                    android:text="@string/pomegranate"
+                    android:textSize="20sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/corn20"
+                android:layout_width="329dp"
+                android:layout_height="252dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="2dp">
+
+                <ImageView
+                    android:id="@+id/imageView20"
+                    android:layout_width="match_parent"
+                    android:layout_height="202dp"
+                    android:layout_gravity="fill_horizontal"
+                    android:foreground="@drawable/rice" />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_gravity="bottom|center"
+                    android:paddingBottom="10dp"
+                    android:text="@string/rice"
+                    android:textSize="20sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/corn21"
+                android:layout_width="329dp"
+                android:layout_height="252dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="2dp">
+
+                <ImageView
+                    android:id="@+id/imageView21"
+                    android:layout_width="match_parent"
+                    android:layout_height="202dp"
+                    android:layout_gravity="fill_horizontal"
+                    android:foreground="@drawable/watermelon" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_gravity="bottom|center"
+                    android:paddingBottom="10dp"
+                    android:text="@string/watermelon"
+                    android:textSize="20sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/button_submit"
+                android:layout_width="331dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                android:visibility="invisible"
+                app:cardBackgroundColor="#D3F3D3"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="2dp">
+
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginBottom="1dp"
+                android:text="SUBMIT" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

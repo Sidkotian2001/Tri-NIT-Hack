@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="level">
+        <item>अधिक</item>
+        <item>मध्यम</item>
+        <item>कम</item>
+    </string-array>
+    <string-array name="month">
+        <item>जनवरी</item>
+        <item>फ़रवरी</item>
+        <item>मार्च</item>
+        <item>अप्रैल</item>
+        <item>मई</item>
+        <item>जून</item>
+        <item>जुलाई</item>
+        <item>अगस्त</item>
+        <item>सितंबर</item>
+        <item>अक्टूबर</item>
+        <item>नवंबर</item>
+        <item>दिसंबर</item>
+    </string-array>
+    <string-array name="spinnerItems">
+        <item>पंजाब</item>
+        <item>हिमाचल प्रदेश</item>
+        <item>हरियाणा</item>
+        <item>उत्तराखंड</item>
+        <item>उत्तर प्रदेश</item>
+        <item>राजस्थान (जयपुर)</item>
+        <item>मध्य प्रदेश (भोपाल)</item>
+        <item> गुजरात</item>
+        <item>महाराष्ट्र</item>
+        <item>छत्तीसगढ़</item>
+        <item>गोवा</item>
+        <item>कर्नाटक</item>
+        <item>केरल</item>
+        <item>तमिलनाडु</item>
+        <item>आंध्र प्रदेश</item>
+        <item>तेलंगाना</item>
+        <item>ओडिशा</item>
+        <item>झारखंड</item>
+        <item>बिहार</item>
+        <item>पश्चिम बंगाल</item>
+        <item>सिक्किम</item>
+        <item>असम</item>
+        <item>मेघालय</item>
+        <item>अरुणाचल प्रदेश</item>
+        <item>नागालैंड</item>
+        <item>मणिपुर</item>
+        <item>मिजोरम</item>
+        <item>त्रिपुरा</item>
+        <item>लद्दाख़</item>
+        <item>दिल्ली</item>
+        <item>जम्मू और कश्मीर</item>
+        <item>अंडमान और निकोबार द्वीप</item>
+        <item>चंडीगढ़</item>
+        <item>दमन और दीव</item>
+        <item>लक्षद्वीप</item>
+        <item>पुदुचेरी</item>
+    </string-array>
+    <string name="apple">सेब</string>
+    <string name="banana">केला</string>
+    <string name="blackgram">काला चना</string>
+    <string name="chickpea">काबुली चना</string>
+    <string name="coconut">नारियल</string>
+    <string name="coffee">कॉफ़ी</string>
+    <string name="condition">पानी की स्थिति</string>
+    <string name="cotton">कपास</string>
+    <string name="distric">भूमि क्षेत्र</string>
+    <string name="grapes">अंगूर</string>
+    <string name="jute">जूट</string>
+    <string name="kidneybeans">राजमा</string>
+    <string name="landarea">भूमि की मात्रा</string>
+    <string name="lang">हिंदी</string>
+    <string name="lentils">मसूर की दाल</string>
+    <string name="maize">मक्का</string>
+    <string name="mango">आम</string>
+    <string name="moth">मोठ</string>
+    <string name="mung">मूँग</string>
+    <string name="musk">खरबूज</string>
+    <string name="next">अगला</string>
+    <string name="orange">नारंगी</string>
+    <string name="papaya">पपीता</string>
+    <string name="pigeon">अरहर दाल</string>
+    <string name="pomegrenate">अनार</string>
+    <string name="rice">चावल</string>
+    <string name="season">मौसम</string>
+    <string name="state">राज्य</string>
+    <string name="watermelon">तरबूज</string>
+</resources>

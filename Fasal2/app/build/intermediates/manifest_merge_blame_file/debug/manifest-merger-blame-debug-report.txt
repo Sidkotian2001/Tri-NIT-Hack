@@ -1,0 +1,131 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.fasal"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->D:\Fasal2\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\Fasal2\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\Fasal2\app\src\main\AndroidManifest.xml:5:5-66
+11-->D:\Fasal2\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->D:\Fasal2\app\src\main\AndroidManifest.xml:6:5-79
+12-->D:\Fasal2\app\src\main\AndroidManifest.xml:6:22-76
+13
+14    <permission
+14-->[androidx.core:core:1.9.0] C:\Users\piyus\.gradle\caches\transforms-3\85625968673fb9fd8db34217596f6efd\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+15        android:name="com.example.fasal.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.9.0] C:\Users\piyus\.gradle\caches\transforms-3\85625968673fb9fd8db34217596f6efd\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.9.0] C:\Users\piyus\.gradle\caches\transforms-3\85625968673fb9fd8db34217596f6efd\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.example.fasal.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.9.0] C:\Users\piyus\.gradle\caches\transforms-3\85625968673fb9fd8db34217596f6efd\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.9.0] C:\Users\piyus\.gradle\caches\transforms-3\85625968673fb9fd8db34217596f6efd\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+19
+20    <application
+20-->D:\Fasal2\app\src\main\AndroidManifest.xml:7:5-43:19
+21        android:allowBackup="true"
+21-->D:\Fasal2\app\src\main\AndroidManifest.xml:8:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.9.0] C:\Users\piyus\.gradle\caches\transforms-3\85625968673fb9fd8db34217596f6efd\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+23        android:dataExtractionRules="@xml/data_extraction_rules"
+23-->D:\Fasal2\app\src\main\AndroidManifest.xml:9:9-65
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:fullBackupContent="@xml/backup_rules"
+26-->D:\Fasal2\app\src\main\AndroidManifest.xml:10:9-54
+27        android:icon="@mipmap/ic_launcher"
+27-->D:\Fasal2\app\src\main\AndroidManifest.xml:11:9-43
+28        android:label="@string/app_name"
+28-->D:\Fasal2\app\src\main\AndroidManifest.xml:12:9-41
+29        android:supportsRtl="true"
+29-->D:\Fasal2\app\src\main\AndroidManifest.xml:13:9-35
+30        android:testOnly="true"
+31        android:theme="@style/Theme.Fasal" >
+31-->D:\Fasal2\app\src\main\AndroidManifest.xml:14:9-43
+32        <activity
+32-->D:\Fasal2\app\src\main\AndroidManifest.xml:16:9-18:40
+33            android:name="com.example.fasal.Result"
+33-->D:\Fasal2\app\src\main\AndroidManifest.xml:17:13-35
+34            android:exported="false" />
+34-->D:\Fasal2\app\src\main\AndroidManifest.xml:18:13-37
+35        <activity
+35-->D:\Fasal2\app\src\main\AndroidManifest.xml:19:9-21:40
+36            android:name="com.example.fasal.info2"
+36-->D:\Fasal2\app\src\main\AndroidManifest.xml:20:13-34
+37            android:exported="false" />
+37-->D:\Fasal2\app\src\main\AndroidManifest.xml:21:13-37
+38        <activity
+38-->D:\Fasal2\app\src\main\AndroidManifest.xml:22:9-24:40
+39            android:name="com.example.fasal.Information"
+39-->D:\Fasal2\app\src\main\AndroidManifest.xml:23:13-40
+40            android:exported="false" />
+40-->D:\Fasal2\app\src\main\AndroidManifest.xml:24:13-37
+41        <activity
+41-->D:\Fasal2\app\src\main\AndroidManifest.xml:25:9-33:20
+42            android:name="com.example.fasal.Language"
+42-->D:\Fasal2\app\src\main\AndroidManifest.xml:26:13-37
+43            android:exported="true" >
+43-->D:\Fasal2\app\src\main\AndroidManifest.xml:27:13-36
+44            <intent-filter>
+44-->D:\Fasal2\app\src\main\AndroidManifest.xml:28:13-32:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->D:\Fasal2\app\src\main\AndroidManifest.xml:29:17-69
+45-->D:\Fasal2\app\src\main\AndroidManifest.xml:29:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->D:\Fasal2\app\src\main\AndroidManifest.xml:31:17-77
+47-->D:\Fasal2\app\src\main\AndroidManifest.xml:31:27-74
+48            </intent-filter>
+49        </activity>
+50        <activity
+50-->D:\Fasal2\app\src\main\AndroidManifest.xml:34:9-42:20
+51            android:name="com.example.fasal.MainActivity"
+51-->D:\Fasal2\app\src\main\AndroidManifest.xml:35:13-41
+52            android:exported="true" >
+52-->D:\Fasal2\app\src\main\AndroidManifest.xml:36:13-36
+53            <intent-filter>
+53-->D:\Fasal2\app\src\main\AndroidManifest.xml:37:13-41:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->D:\Fasal2\app\src\main\AndroidManifest.xml:29:17-69
+54-->D:\Fasal2\app\src\main\AndroidManifest.xml:29:25-66
+55                <action android:name="android.intent.action.SEARCH" />
+55-->D:\Fasal2\app\src\main\AndroidManifest.xml:39:17-71
+55-->D:\Fasal2\app\src\main\AndroidManifest.xml:39:25-68
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->D:\Fasal2\app\src\main\AndroidManifest.xml:31:17-77
+57-->D:\Fasal2\app\src\main\AndroidManifest.xml:31:27-74
+58            </intent-filter>
+59        </activity>
+60
+61        <provider
+61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\piyus\.gradle\caches\transforms-3\7efe218e7ae35cb58dbf86d5ee36a529\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+62            android:name="androidx.startup.InitializationProvider"
+62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\piyus\.gradle\caches\transforms-3\7efe218e7ae35cb58dbf86d5ee36a529\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+63            android:authorities="com.example.fasal.androidx-startup"
+63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\piyus\.gradle\caches\transforms-3\7efe218e7ae35cb58dbf86d5ee36a529\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+64            android:exported="false" >
+64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\piyus\.gradle\caches\transforms-3\7efe218e7ae35cb58dbf86d5ee36a529\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+65            <meta-data
+65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\piyus\.gradle\caches\transforms-3\7efe218e7ae35cb58dbf86d5ee36a529\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+66                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\piyus\.gradle\caches\transforms-3\7efe218e7ae35cb58dbf86d5ee36a529\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+67                android:value="androidx.startup" />
+67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\piyus\.gradle\caches\transforms-3\7efe218e7ae35cb58dbf86d5ee36a529\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+68            <meta-data
+68-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\piyus\.gradle\caches\transforms-3\7495f4090f64d34b46f8102bfc12da1e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+69                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+69-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\piyus\.gradle\caches\transforms-3\7495f4090f64d34b46f8102bfc12da1e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+70                android:value="androidx.startup" />
+70-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\piyus\.gradle\caches\transforms-3\7495f4090f64d34b46f8102bfc12da1e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+71        </provider>
+72    </application>
+73
+74</manifest>

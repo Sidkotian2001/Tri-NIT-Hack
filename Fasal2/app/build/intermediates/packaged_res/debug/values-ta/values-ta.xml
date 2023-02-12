@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="level">
+        <item>கனமான</item>
+        <item>நடுத்தர</item>
+        <item>குறைந்த</item>
+    </string-array>
+    <string-array name="month">
+        <item>ஜனவரி</item>
+        <item>பிப்ரவரி</item>
+        <item>மார்ச்</item>
+        <item>ஏப்ரல்</item>
+        <item>மே</item>
+        <item>ஜூன்</item>
+        <item>ஜூலை</item>
+        <item>ஆகஸ்ட்</item>
+        <item>ஆகஸ்ட்</item>
+        <item>அக்டோபர்</item>
+        <item>நவம்பர்</item>
+        <item>டிசம்பர்</item>
+    </string-array>
+    <string-array name="spinnerItems">
+        <item>ஆந்திரப் பிரதேசம்</item>
+        <item>அருணாச்சல பிரதேசம்</item>
+        <item>அசாம்</item>
+        <item>பீகார்</item>
+        <item>சத்தீஸ்கர்</item>
+        <item>கோவா</item>
+        <item>குஜராத்</item>
+        <item>ஹரியானா</item>
+        <item>ஹிமாச்சல பிரதேசம்</item>
+        <item>ஜார்கண்ட</item>
+        <item>கர்நாடகா</item>
+        <item>கேரளா</item>
+        <item>மத்தியப் பிரதேசம்</item>
+        <item>மகாராஷ்டிரா</item>
+        <item>மணிப்பூர்</item>
+        <item>மேகாலயா</item>
+        <item>மிசோரம்</item>
+        <item>நாகலாண்ட்</item>
+        <item>ஒரிசா</item>
+        <item>பஞ்சாப்</item>
+        <item>ராஜஸ்தான்</item>
+        <item>சிக்கிம்</item>
+        <item>தமிழ்நாடு</item>
+        <item>தெலுங்கானா</item>
+        <item>திரிபுரா</item>
+        <item>உத்தரப் பிரதேசம்</item>
+        <item>உத்தரகண்ட்</item>
+        <item>வங்காளம்</item>
+        <item>அந்தமான் நிக்கோபார் தீவுகள்</item>
+        <item>சண்டிகர்</item>
+        <item>தாத்ரா நாகர் ஹவேலி மற்றும் டாமன் டையூ</item>
+        <item>டெல்லி</item>
+        <item>ஜம்மு காஷ்மீர்</item>
+        <item>லட்சத்தீவு</item>
+        <item>புதுச்சேரி</item>
+        <item>லடாக்</item>
+    </string-array>
+    <string name="apple">ஆப்பிள்</string>
+    <string name="banana">வாழை</string>
+    <string name="blackgram">உளுந்து</string>
+    <string name="chickpea">கொண்டைக்கடலை</string>
+    <string name="coconut">தேங்காய்</string>
+    <string name="coffee">கொட்டைவடி நீர்</string>
+    <string name="condition">நீர் நிலை</string>
+    <string name="cotton">பருத்தி</string>
+    <string name="distric">நிலப்பரப்பு</string>
+    <string name="grapes">திராட்சை</string>
+    <string name="jute">சணல்</string>
+    <string name="kidneybeans">தமிழ் விக்சனரி</string>
+    <string name="landarea">நிலப்பரப்பு</string>
+    <string name="lang">தமிழ்</string>
+    <string name="lentils">பருப்பு</string>
+    <string name="maize">சோளம்</string>
+    <string name="mango">மாங்கனி</string>
+    <string name="moth">அந்துப்பூச்சி பீன்ஸ்</string>
+    <string name="mung">முங் பீன்ஸ்</string>
+    <string name="musk">முலாம்பழம்</string>
+    <string name="next">அடுத்தது</string>
+    <string name="orange">ஆரஞ்சு</string>
+    <string name="papaya">பப்பாளி</string>
+    <string name="pigeon">புறா பட்டாணி பருப்பு</string>
+    <string name="pomegrenate">மாதுளை பழம்</string>
+    <string name="rice">அரிசி</string>
+    <string name="season">பருவம்</string>
+    <string name="state">நிலை</string>
+    <string name="watermelon">தர்பூசணி</string>
+</resources>

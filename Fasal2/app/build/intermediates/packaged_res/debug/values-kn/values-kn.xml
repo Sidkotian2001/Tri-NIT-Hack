@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="level">
+        <item>ಭಾರೀ</item>
+        <item>ಮಾಧ್ಯಮ</item>
+        <item>ಕಡಿಮೆ</item>
+    </string-array>
+    <string-array name="month">
+        <item>ಜನವರಿ</item>
+        <item>ಫೆಬ್ರವರಿ</item>
+        <item>ಮಾರ್ಚಿ</item>
+        <item>ಏಪ್ರಿಲ್</item>
+        <item>ಮೇ</item>
+        <item>ಜೂನ್</item>
+        <item>ಜುಲೈ</item>
+        <item>ಆಗಸ್ಟ್</item>
+        <item>ಸೆಪ್ಟೆಂಬರ್</item>
+        <item>ಅಕ್ಟೋಬರ್</item>
+        <item>ನವಂಬರ್</item>
+        <item>ಡಿಸೆಂಬರ್</item>
+    </string-array>
+    <string-array name="spinnerItems">
+        <item>ತೆಲಂಗಾಣ</item>
+        <item>ಅರುಣಾಚಲ ಪ್ರದೇಶ</item>
+        <item>ಆಸ್ಸಾಮ್</item>
+        <item>ಬಿಹಾರ</item>
+        <item>ಛತ್ತೀಸ್‌ಘಡ್</item>
+        <item>ದೆಹಲಿ</item>
+        <item>ಗೋವಾ</item>
+        <item>ಗುಜರಾತ</item>
+        <item>ಹಿಮಾಚಲ ಪ್ರದೇಶ</item>
+        <item>ಝಾರ್ಖಂಡ</item>
+        <item>ಕರ್ನಾಟಕ</item>
+        <item>ಕೇರಳ</item>
+        <item>ಮಧ್ಯ ಪ್ರದೇಶ</item>
+        <item>ಮಹಾರಾಷ್ಟ್ರ</item>
+        <item>ಮಣಿಪುರ</item>
+        <item>ಮೇಘಾಲಯ</item>
+        <item>ಮಿಝೋರಾಮ್</item>
+        <item>ನಾಗಾಲ್ಯಾಂಡ್</item>
+        <item>ಒಡಿಶಾ</item>
+        <item>ಹರಿಯಾಣ ಮತ್ತು ಪಂಜಾಬ</item>
+        <item>ರಾಜಸ್ಥಾನ</item>
+        <item>ಸಿಕ್ಕಿಂ</item>
+        <item>ಸೀಮಾಂಧ್ರ</item>
+        <item>ತಮಿಳುನಾಡು</item>
+        <item>ತ್ರಿಪುರ</item>
+        <item>ಉತ್ತರ ಪ್ರದೇಶ</item>
+        <item>ಉತ್ತರಾಂಚಲ</item>
+        <item>ಪಶ್ಚಿಮ ಬಂಗಾಳ</item>
+
+        <item>ಅಂಡಮಾನ್ ಮತ್ತು ನಿಕೋಬಾರ್ ದ್ವೀಪಗಳು</item>
+        <item>ಚಂಡೀಗಢ</item>
+        <item>ದಮನ್ ಮತ್ತು ದಿಯು</item>
+        <item>ದೆಹಲಿ</item>
+        <item>ಜಮ್ಮು ಮತ್ತು ಕಾಶ್ಮೀರ</item>
+        <item>ಲಡಾಖ್</item>
+        <item>ಲಕ್ಷದ್ವೀಪ</item>
+        <item>ಪುದುಚೇರಿ</item>
+    </string-array>
+    <string name="apple">ಆಪಲ್</string>
+    <string name="banana">ಬಾಳೆಹಣ್ಣು</string>
+    <string name="blackgram">ಕಪ್ಪು ಗ್ರಾಂ ಮಸೂರ</string>
+    <string name="chickpea">ಕಡಲೆ</string>
+    <string name="coconut">ತೆಂಗಿನ ಕಾಯಿ</string>
+    <string name="coffee">ಕಾಫಿ</string>
+    <string name="condition">ನೀರಿನ ಸ್ಥಿತಿ</string>
+    <string name="cotton">ಹತ್ತಿ</string>
+    <string name="distric">ಭೂ ಪ್ರದೇಶದ</string>
+    <string name="grapes">ದ್ರಾಕ್ಷಿಗಳು</string>
+    <string name="jute">ಸೆಣಬು</string>
+    <string name="kidneybeans">ಕಿಡ್ನಿ ಬೀನ್ಸ್</string>
+    <string name="landarea">ಭೂಮಿಯ ಪ್ರಮಾಣ</string>
+    <string name="lang">ಕನ್ನಡ</string>
+    <string name="lentils">ಮಸೂರ</string>
+    <string name="maize">ಮೆಕ್ಕೆಜೋಳ</string>
+    <string name="mango">ಮಾವು</string>
+    <string name="moth">ಚಿಟ್ಟೆ ಬೀನ್ಸ್</string>
+    <string name="mung">ಮುಂಗ್ ಬೀನ್ಸ್</string>
+    <string name="musk">ಕಸ್ತೂರಿ</string>
+    <string name="next">ಮುಂದೆ</string>
+    <string name="orange">ಕಿತ್ತಳೆ</string>
+    <string name="papaya">ಪಪ್ಪಾಯಿ</string>
+    <string name="pigeon">ತೂಗರಿ ಬೇಳೆ</string>
+    <string name="pomegrenate">ದಾಳಿಂಬೆ</string>
+    <string name="rice">ಅಕ್ಕಿ</string>
+    <string name="season">ಋತು</string>
+    <string name="state">ರಾಜ್ಯ</string>
+    <string name="watermelon">ಕಲ್ಲಂಗಡಿ</string>
+</resources>
