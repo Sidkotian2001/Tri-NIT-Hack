@@ -23,3 +23,5 @@ The Random Forest classifier algorithm is then trained on the training data, usi
 
 Finally, the trained model can be used to make predictions on new data by passing in soil composition, temperature, and rainfall information as input.
 
+## Flask Api hosted on Render
+https://fasal.onrender.com/predict - Post 
